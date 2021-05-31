@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href='calculator.css' rel='stylesheet'/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <input id='displayedResult' type="text" disabled>    
+
+            <div class="calculatorButtons"> 
+                <button id='btn'    onclick="setValue(this)">7</button>
+                <button id='btn'    onclick="setValue(this)">8</button>
+                <button id='btn'    onclick="setValue(this)">9</button>
+                <button id='btn'    onclick="setOperator(OPERATION_ADDITION)">+</button>
+                <br>
+                <button id='btn'    onclick="setValue(this)">4</button>
+                <button id='btn'    onclick="setValue(this)">5</button>
+                <button id='btn'    onclick="setValue(this)">6</button>
+                <button id='btn'    onclick="setOperator(OPERATION_SUBTRACTION)">-</button> 
+                <br>
+                <button id='btn'    onclick="setValue(this)">1</button>
+                <button id='btn'    onclick="setValue(this)">2</button>
+                <button id='btn'    onclick="setValue(this)">3</button>
+                <button id='btn'    onclick="setOperator(OPERATION_MULTIPLICATION)">×</button>
+                <br>
+                <button id='btn'    onclick="setValue(this)">0</button>
+                <button id='btn'    onclick="setCommaEnabled('.')">.</button>
+                <button id='btn'    onclick="reset('')">C</button>
+                <button id='btn'    onclick="setOperator(OPERATION_DIVISION)">÷</button>
+                <br>
+                <button id='equalbtn' onclick="setOperator(OPERATION_EQUALS)">=</button>
+            </div>
+        </div>
+       
+
+        <script src='calculator.js'></script>
+    </body>
+
+</html>
+
+
+
+
+<!-- <html>
+    <head>
+        <title>Calculator</title>
+        <link href='calculator.css' rel='stylesheet'/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <input id='displayedResult' type="text" disabled>   
+            <div class="calculatorButtons"> 
+                <button id='btn'    onclick="setValue(7)">7</button>
+                <button id='btn'    onclick="setValue(8)">8</button>
+                <button id='btn'    onclick="setValue(9)">9</button>
+                <button id='increasebtn' class='btn' onclick="setOperator(OPERATION_ADDITION)">+</button>
+                <br>
+                <button id='btn'   class='btn' onclick="setValue(4)">4</button>
+                <button id='btn'   class='btn' onclick="setValue(5)">5</button>
+                <button id='btn'   class='btn' onclick="setValue(6)">6</button>
+                <button id='decreasebtn' class='btn' onclick="setOperator(OPERATION_SUBTRACTION)">-</button> 
+                <br>
+                <button id='btn'   class='btn' onclick="setValue(1)">1</button>
+                <button id='btn'   class='btn' onclick="setValue(2)">2</button>
+                <button id='btn'   class='btn' onclick="setValue(3)">3</button>
+                <button id='multiplybtn' class='btn' onclick="setOperator(OPERATION_MULTIPLICATION)">×</button>
+                <br>
+                <button id='zerobtn'     class='btn' onclick="setValue(0)">0</button>
+                <button id='decimalbtn'  class='btn' onclick="setCommaEnabled('.')">.</button>
+                <button id='clearbtn'    class='btn' onclick="reset('')">C</button>
+                <button id='divadeBtn'   class='btn' onclick="setOperator(OPERATION_DIVISION)">÷</button>
+                <br>
+                <button id='equalbtn'    class='btn' onclick="setOperator(OPERATION_EQUALS)">=</button>
+            </div>
+        </div>
+       
+
+        <script src='calculator.js'></script>
+    </body>
+
+</html> -->

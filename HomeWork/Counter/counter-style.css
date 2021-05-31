@@ -1,0 +1,56 @@
+body {
+    background: -webkit-linear-gradient(-90deg,
+    lightblue,
+    black
+    );
+  }
+
+.containerBox {
+    height: 100px;
+    width: 600px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #ffffff;
+    align-content:space-around;
+    justify-content:space-between;
+    border-radius: 12px;
+    display: flex;
+}
+
+h1 {
+    margin: 150px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    color:#ffffff;
+    font-size: 40px;
+  }
+
+.btn {
+    width: 30%;
+    font-size: 55px;
+    font-weight: bold;
+    color: lavenderblush;
+    border-radius: 12px;
+    margin: 0;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    color: lightblue;
+    font-size: 50px;
+}
+
+#counterNumber {
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+}
+
+.plusminus {
+    background: -webkit-linear-gradient(-90deg,
+    lightblue,
+    black);
+    border: none;
+}
